@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(route);
 
 app.get("/", (req, res) => {
-    res.send("hihi");
+    res.render("index.html");
 });
 
 app.get("/board/list", (req, res) => {
