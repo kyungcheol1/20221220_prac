@@ -14,10 +14,6 @@ app.get("/", (req, res) => {
     res.render("index.html");
 });
 
-app.get("/board/list", (req, res) => {
-    res.render("board/list.html");
-});
-
 app.listen(3000, () => {
     console.log("server start");
 });
