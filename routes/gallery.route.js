@@ -17,4 +17,8 @@ route.get("/delete", (req, res) => {
     res.send("gallery/ delete");
 });
 
+route.get("/view", (req, res) => {
+    res.send("gallery/ view");
+});
+
 module.exports = route;
